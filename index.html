@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="header__nav">
+                <button class="header__btn_logo"><img src="img/logo.svg" class="header__logo" alt="logo"></button>
+                <p class="header__title">Текст</p>
+            </nav>
+        </div>
+        <hr class="header_hr_green">        
+        <hr class="header_hr_red">
+        <hr class="header_hr_bold_red">
+    </header>
+    <main class="main">
+        <div class="container">
+            <h1 class="main__title">Слайдер</h1>
+            <div class="slides">
+                <div class="slides-item checked">
+                    <img src="img/slide1.jpg" class="slide_img" alt="">
+                    <h1 class="main__title">Текст 1</h1>
+                </div>
+                <div class="slides-item">
+                    <img src="img/slide2.jpg" class="slide_img" alt="slide">
+                    <h1 class="main__title">Текст 2</h1>
+                </div>
+                <div class="slides-item">
+                    <img src="img/slide3.jpg" class="slide_img" alt="slide">
+                    <img src="img/background.jpg" class="item_background_slide3" alt="bg">
+                    <img src="img/update.svg" class="item_update_slide3" alt="update">
+                    <h1 class="main__title">Текст 3</h1>
+                </div>
+                <div class="slides-item">
+                    <img src="img/slide4.jpg" class="slide_img" alt="slide">
+                    <img src="img/background.jpg" class="item_background_slide4" alt="bg">
+                    <img src="img/background.jpg" class="item_background_slide41" alt="bg">
+                    <img src="img/update.svg" class="item_update" alt="updateg">
+                    <img src="img/excel.svg" class="item_excel" alt="excel">
+                    <img src="img/file.svg" class="item_file" alt="file">
+                    <h1 class="main__title">Текст 4</h1>
+                </div>
+                <div class="btn-menu">
+                    <img id="left-button" src="img/left-arrow.svg" alt="left"></img>
+                    <div class="dots">
+                        <div class="dots-item is-active"></div>
+                        <div class="dots-item"></div>
+                        <div class="dots-item"></div>
+                        <div class="dots-item"></div>
+                    </div>
+                    <img id="right-button" src="img/right-arrow.svg" alt="right"></img>
+                </div>
+            </div>
+            <button class="main__btn_continue" id="btn" disabled>Продолжить</button>
+        </div>
+    </main>
+    <footer class="footer">
+        <hr class="footer__green">
+        <hr class="footer__red">
+    </footer>
+    <script src="js/index.js"></script>
+</body>
+</html>
