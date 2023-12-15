@@ -110,7 +110,8 @@
     cursor: pointer;
 }
 
-#right-button, #left-button {
+#right-button,
+#left-button {
     cursor: pointer;
 }
 .dots-item {
