@@ -34,7 +34,7 @@
     cursor: pointer;
 }
 
-.header_hr_green {
+.header__hr_green {
     position: absolute;
     margin: 0px;
     width: 100%;
@@ -43,7 +43,7 @@
     border: none;
 }
 
-.header_hr_red {
+.header__hr_red {
     position: absolute;
     margin: 0px;
     width: 50%;
@@ -52,7 +52,7 @@
     border: none;
 }
 
-.header_hr_bold_red {
+.header__hr_bold_red {
     position: absolute;
     margin: 0px;
     width: 39%;
